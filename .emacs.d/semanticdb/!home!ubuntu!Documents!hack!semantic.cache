@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file-1578446d11f8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1578446d11f8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1578446d1214"
+      :major-mode python-mode
+      :tags 
+        '( ("circle" function (:arguments 
+              ( ("r" variable nil (reparse-symbol function_parameters) [13 14]))              ) nil [2 26])
+            ("print_stars" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [44 45]))              ) nil [28 67])
+            ("print_pattern" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [86 87]))              ) nil [68 138])
+            ("print_grid" function (:arguments 
+              ( ("m" variable nil (reparse-symbol function_parameters) [154 155])
+                ("n" variable nil (reparse-symbol function_parameters) [157 158]))              ) nil [139 207]))          
+      :file "annie.py"
+      :pointmax 229
+      :fsize 228
+      :lastmodtime '(25939 38720 239821 519000)
+      :unmatched-syntax '((NAME 210 . 220) ($EOI 229 . 229))))
+  :file "!home!ubuntu!Documents!hack!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

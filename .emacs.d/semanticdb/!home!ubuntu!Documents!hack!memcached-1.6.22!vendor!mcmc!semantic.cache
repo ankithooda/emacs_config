@@ -1,0 +1,302 @@
+;; Object semanticdb-project-database-file-157dc899b13c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157dc899b13c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157dc899e444"
+      :major-mode c-mode
+      :tags 
+        '( ("MCMC_HEADER" variable (:constant-flag t) nil [29 40])
+            ("sys/uio.h" include (:system-flag t) nil [42 62])
+            ("stdint.h" include (:system-flag t) nil [63 82])
+            ("MCMC_OK" variable (:constant-flag t) nil [92 99])
+            ("MCMC_ERR" variable (:constant-flag t) nil [110 118])
+            ("MCMC_NOT_CONNECTED" variable (:constant-flag t) nil [130 148])
+            ("MCMC_CONNECTED" variable (:constant-flag t) nil [159 173])
+            ("MCMC_CONNECTING" variable (:constant-flag t) nil [184 199])
+            ("MCMC_WANT_WRITE" variable (:constant-flag t) nil [228 243])
+            ("MCMC_WANT_READ" variable (:constant-flag t) nil [254 268])
+            ("MCMC_CODE_STORED" variable (:constant-flag t) nil [497 513])
+            ("MCMC_CODE_EXISTS" variable (:constant-flag t) nil [524 540])
+            ("MCMC_CODE_DELETED" variable (:constant-flag t) nil [551 568])
+            ("MCMC_CODE_TOUCHED" variable (:constant-flag t) nil [580 597])
+            ("MCMC_CODE_VERSION" variable (:constant-flag t) nil [609 626])
+            ("MCMC_CODE_NOT_FOUND" variable (:constant-flag t) nil [638 657])
+            ("MCMC_CODE_NOT_STORED" variable (:constant-flag t) nil [669 689])
+            ("MCMC_CODE_OK" variable (:constant-flag t) nil [701 713])
+            ("MCMC_CODE_NOP" variable (:constant-flag t) nil [725 738])
+            ("MCMC_CODE_END" variable (:constant-flag t) nil [750 763])
+            ("MCMC_ERR_SHORT" variable (:constant-flag t) nil [775 789])
+            ("MCMC_ERR_PARSE" variable (:constant-flag t) nil [801 815])
+            ("MCMC_ERR_VALUE" variable (:constant-flag t) nil [827 841])
+            ("MCMC_CODE_ERROR" variable (:constant-flag t) nil [853 868])
+            ("MCMC_CODE_CLIENT_ERROR" variable (:constant-flag t) nil [880 902])
+            ("MCMC_CODE_SERVER_ERROR" variable (:constant-flag t) nil [914 936])
+            ("MCMC_RESP_GET" variable (:constant-flag t) nil [967 980])
+            ("MCMC_RESP_META" variable (:constant-flag t) nil [993 1007])
+            ("MCMC_RESP_STAT" variable (:constant-flag t) nil [1020 1034])
+            ("MCMC_RESP_GENERIC" variable (:constant-flag t) nil [1047 1064])
+            ("MCMC_RESP_END" variable (:constant-flag t) nil [1077 1090])
+            ("MCMC_RESP_VERSION" variable (:constant-flag t) nil [1103 1120])
+            ("MCMC_RESP_NUMERIC" variable (:constant-flag t) nil [1133 1150])
+            ("MCMC_RESP_ERRMSG" variable (:constant-flag t) nil [1194 1210])
+            ("MCMC_RESP_FAIL" variable (:constant-flag t) nil [1261 1275])
+            ("MCMC_OPTION_BLANK" variable (:constant-flag t) nil [1332 1349])
+            ("MCMC_OPTION_NONBLOCK" variable (:constant-flag t) nil [1360 1380])
+            ("MCMC_OPTION_TCP_KEEPALIVE" variable (:constant-flag t) nil [1391 1416])
+            ("MCMC_ERROR_CODE_MAX" variable (:constant-flag t) nil [1561 1580])
+            ("MCMC_ERROR_MSG_MAX" variable (:constant-flag t) nil [1592 1610])
+            ("mcmc_resp_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("type" variable (:type "short") (reparse-symbol classsubparts) [1637 1648])
+                          ("code" variable (:type "short") (reparse-symbol classsubparts) [1653 1664])
+                          ("value" variable
+                             (:pointer 1
+                              :type "char")
+                              (reparse-symbol classsubparts) [1669 1681])
+                          ("reslen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1726 1740])
+                          ("vlen_read" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1781 1798])
+                          ("vlen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1851 1863])
+                          ("" type
+                             (:members 
+                                ( ("" type
+                                     (:members 
+                                        ( ("rline" variable
+                                             (:pointer 1
+                                              :type "char")
+                                              (reparse-symbol classsubparts) [1983 1995])
+                                          ("rlen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2040 2052]))                                        
+                                      :type "struct")
+                                      (reparse-symbol classsubparts) [1962 2063])
+                                  ("" type
+                                     (:members 
+                                        ( ("key" variable
+                                             (:pointer 1
+                                              :type "char")
+                                              (reparse-symbol classsubparts) [2117 2127])
+                                          ("klen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2140 2152])
+                                          ("flags" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2165 2180])
+                                          ("cas" variable (:type ("uint64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2193 2206]))                                        
+                                      :type "struct")
+                                      (reparse-symbol classsubparts) [2096 2249])
+                                  ("" type
+                                     (:members 
+                                        ( ("sname" variable
+                                             (:pointer 1
+                                              :type "char")
+                                              (reparse-symbol classsubparts) [2304 2316])
+                                          ("snamelen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2329 2345])
+                                          ("stat" variable
+                                             (:pointer 1
+                                              :type "char")
+                                              (reparse-symbol classsubparts) [2358 2369])
+                                          ("statlen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2382 2397]))                                        
+                                      :type "struct")
+                                      (reparse-symbol classsubparts) [2283 2408]))                                
+                              :type "union")
+                              (reparse-symbol classsubparts) [1921 2415]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [1616 2430])
+            ("mcmc_fd" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2444 2452]))                  
+                :type "int")
+                nil [2432 2453])
+            ("mcmc_size" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("options" variable (:type "int") (reparse-symbol arg-sub-list) [2471 2483]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [2454 2484])
+            ("mcmc_min_buffer_size" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("options" variable (:type "int") (reparse-symbol arg-sub-list) [2513 2525]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [2485 2526])
+            ("mcmc_parse_buf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2546 2554])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2555 2565])
+                    ("read" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2566 2578])
+                    ("r" variable
+                       (:pointer 1
+                        :type ("mcmc_resp_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2579 2594]))                  
+                :type "int")
+                nil [2527 2595])
+            ("mcmc_bare_parse_buf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2620 2630])
+                    ("read" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2631 2643])
+                    ("r" variable
+                       (:pointer 1
+                        :type ("mcmc_resp_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2644 2659]))                  
+                :type "int")
+                nil [2596 2660])
+            ("mcmc_connect" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2678 2686])
+                    ("host" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2687 2698])
+                    ("port" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2699 2710])
+                    ("options" variable (:type "int") (reparse-symbol arg-sub-list) [2711 2723]))                  
+                :type "int")
+                nil [2661 2724])
+            ("mcmc_check_nonblock_connect" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2757 2765])
+                    ("err" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2766 2775]))                  
+                :type "int")
+                nil [2725 2776])
+            ("mcmc_send_request" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2799 2807])
+                    ("request" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2808 2828])
+                    ("len" variable (:type "int") (reparse-symbol arg-sub-list) [2829 2837])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [2838 2848]))                  
+                :type "int")
+                nil [2777 2849])
+            ("mcmc_request_writev" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2874 2882])
+                    ("iov" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("iovec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2883 2907])
+                    ("iovcnt" variable (:type "int") (reparse-symbol arg-sub-list) [2908 2919])
+                    ("sent" variable
+                       (:pointer 1
+                        :type ("ssize_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2920 2934])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [2935 2945]))                  
+                :type "int")
+                nil [2850 2946])
+            ("mcmc_disconnect" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [3106 3114]))                  
+                :type "int")
+                nil [3086 3115])
+            ("mcmc_get_error" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [3136 3144])
+                    ("code" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3145 3156])
+                    ("clen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3157 3169])
+                    ("msg" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3170 3180])
+                    ("mlen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3181 3193]))                  
+                :type "void")
+                nil [3116 3194]))          
+      :file "mcmc.h"
+      :pointmax 3203
+      :fsize 3202
+      :lastmodtime '(25976 38549 710261 499000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MCMC_OK" . ((number "0" 100 . 101)))
+          ("MCMC_ERR" . ((punctuation "-" 119 . 120) (number "1" 120 . 121)))
+          ("MCMC_CONNECTED" . ((number "2" 174 . 175)))
+          ("MCMC_CODE_EXISTS" . ((number "9" 541 . 542)))
+          ("MCMC_CODE_TOUCHED" . ((number "11" 598 . 600)))
+          ("MCMC_RESP_GET" . ((number "100" 981 . 984)))
+          ("MCMC_HEADER")
+          ("MCMC_ERR_VALUE" . ((number "20" 842 . 844)))
+          ("MCMC_CODE_ERROR" . ((number "21" 869 . 871)))
+          ("MCMC_CODE_DELETED" . ((number "10" 569 . 571)))
+          ("MCMC_CODE_NOP" . ((number "16" 739 . 741)))
+          ("MCMC_RESP_GENERIC" . ((number "104" 1065 . 1068)))
+          ("MCMC_ERROR_CODE_MAX" . ((number "32" 1581 . 1583)))
+          ("MCMC_ERROR_MSG_MAX" . ((number "512" 1611 . 1614)))
+          ("MCMC_CODE_NOT_STORED" . ((number "14" 690 . 692)))
+          ("MCMC_RESP_STAT" . ((number "102" 1035 . 1038)))
+          ("MCMC_RESP_VERSION" . ((number "106" 1121 . 1124)))
+          ("MCMC_OPTION_TCP_KEEPALIVE" . ((semantic-list "(1<<1)" 1417 . 1423)))
+          ("MCMC_ERR_PARSE" . ((number "19" 816 . 818)))
+          ("MCMC_RESP_META" . ((number "101" 1008 . 1011)))
+          ("MCMC_RESP_END" . ((number "105" 1091 . 1094)))
+          ("MCMC_RESP_FAIL" . ((number "109" 1276 . 1279)))
+          ("MCMC_CONNECTING" . ((number "3" 200 . 201)))
+          ("MCMC_WANT_WRITE" . ((number "4" 244 . 245)))
+          ("MCMC_CODE_VERSION" . ((number "12" 627 . 629)))
+          ("MCMC_ERR_SHORT" . ((number "18" 790 . 792)))
+          ("MCMC_CODE_SERVER_ERROR" . ((number "23" 937 . 939)))
+          ("MCMC_OPTION_BLANK" . ((number "0" 1350 . 1351)))
+          ("MCMC_WANT_READ" . ((number "5" 269 . 270)))
+          ("MCMC_CODE_NOT_FOUND" . ((number "13" 658 . 660)))
+          ("MCMC_CODE_OK" . ((number "15" 714 . 716)))
+          ("MCMC_RESP_NUMERIC" . ((number "107" 1151 . 1154)))
+          ("MCMC_RESP_ERRMSG" . ((number "108" 1211 . 1214)))
+          ("MCMC_NOT_CONNECTED" . ((number "1" 149 . 150)))
+          ("MCMC_CODE_END" . ((number "17" 764 . 766)))
+          ("MCMC_CODE_CLIENT_ERROR" . ((number "22" 903 . 905)))
+          ("MCMC_OPTION_NONBLOCK" . ((number "1" 1381 . 1382)))
+          ("MCMC_CODE_STORED" . ((number "8" 514 . 515)))
+          )
+))
+  :file "!home!ubuntu!Documents!hack!memcached-1.6.22!vendor!mcmc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

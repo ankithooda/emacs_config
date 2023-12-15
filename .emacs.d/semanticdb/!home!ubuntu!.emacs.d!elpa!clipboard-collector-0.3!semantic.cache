@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-156688f9a314
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156688f9a314"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156688f9a2f4"
+      :major-mode emacs-lisp-mode
+      :tags nil
+      :file "clipboard-collector-autoloads.el"
+      :pointmax 377
+      :fsize 1936
+      :lastmodtime '(25978 48305 9456 801000)
+      :unmatched-syntax nil))
+  :file "!home!ubuntu!.emacs.d!elpa!clipboard-collector-0.3!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

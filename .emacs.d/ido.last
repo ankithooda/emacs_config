@@ -1,0 +1,40 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ubuntu/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ubuntu/"
+ "/home/"
+ "/home/ubuntu/.emacs.d/"
+ "/home/ubuntu/Documents/hack/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "init.el"
+ "README.md"
+ "annie.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ubuntu/Documents/hack/" (25977 43769 521157 264000) "libevent-2.1.12-stable/" "ostep-projects/" "xv6-riscv/" "annie.py" "workbook/" "tigerbeettle_hackathon_idea" "libevent-2.1.12-stable.tar.gz" "tigerbeetle/" "xv6-public/" "os_three_easy_pieces/" "../" "ostep-homework/" "./" ".annie.py.~undo-tree~" "aws2gcp/" "ostep-code/" "n2t/" "memcached-1.6.22/")
+
+ ("/home/" (25551 47776 430191 384000) "ubuntu/" "../" "./")
+
+ ("/home/ubuntu/" (25977 43782 709260 127000) "gems/" ".zcompdump-machine-city-5.8.1.zwc" ".psql_history" ".gnupg/" "Inform/" ".gitconfig" "Calibre Library/" ".oh-my-zsh/" ".python_history" "Principles of Computer System Design.pdf" ".slime-history.eld" ".vscode-oss/" ".zoom/" "The Black City.inform/" ".emacs.d/" ".vimrc" "Music/" "sketchbook/" "db_hypernomicon/" ".nvm/" "Videos/" "retro_theme/" ".zcompdump" ".python_history-13734.tmp" ".java/" ".bashrc" ".m2/" "mp_run.txt" ".bash_history" "..emacs.~undo-tree~" ".idlerc/" ".wine32/" ".codelite/" ".in_the_image.swp" ".embedded-postgres-go/" ".pki/" "texts/" ".pub-cache/" "..zshrc.~undo-tree~" "Downloads/" ".ssh/" ".armagetronad/" ".cmake/" ".rustup/" ".bash_logout" "Templates/" ".npm/" ".emacs" ".config/" ".thunderbird/" ".local/" ".cache/" "Desktop/" ".gnome/" ".var/" "venvs/" ".bundle/" "2023-07-22 12-05-28.mkv" ".python_history-06878.tmp" "quince_laptop_dump/" ".opam/" "Documents/" "Public/" ".sourcegraph-psql/" ".dart/" ".shell.pre-oh-my-zsh" ".wget-hsts" ".lesshst" "old_disk/" "ballistic_book" "mount_hd" ".zcompdump-machine-city-5.8.1" ".node_repl_history" ".profile" "Calibre Old Library/" ".mozilla/" ".viminfo" ".cargo/" "go/" "Pictures/" "snap/" ".xsession-errors" ".openjfx/" "../" "electronics_book" ".zshrc" ".wine/" "./" ".tor/" ".zshrc~" ".emacs~" ".rediscli_history" ".quotes.swp" "Hypernomicon/" "old_internet" ".vim/" ".xpra/" ".sudo_as_admin_successful" ".python_history-34914.tmp" ".org.hypernomicon.App/" ".zsh_history")
+
+ ("/home/ubuntu/.emacs.d/" (25977 44362 280534 824000) "custom/" ".git/" "elpa/" "README.md" "init.el" "auto-save-list/" ".init.el.~undo-tree~" "../" "./" ".README.md.~undo-tree~" "projectile-bookmarks.eld")
+
+ ("/home/ubuntu/Documents/" (25864 9860 412270 479000) "Industry Primers.zip" "old_disk_bkp/" "itr_2023/" "The_Little_Schemer_4th_2.pdf" "AADHAR_ANKIT.pdf" "software/" "The Seasoned Schemer - Daniel P. Friedman.pdf" "fin/" "../" "books/" "./" "wrtng/" "hack/" "movs/" "brsrk/" "ppssspp/" "Industry Primers/")
+
+ ("/home/ubuntu/Documents/hack/memcached-1.6.22/" (25977 42956 332849 328000) "NEWS" "memcached_debug-itoa_ljust.o" "configure.ac" "Makefile" "memcached_debug-bipbuffer.gcno" "proxy_xxhash.c" "memcached_debug-proto_bin.gcno" "slab_automove_extstore.h" "memcached-slab_automove.o" "assoc.h" "memcached_debug-items.o" "restart.h" "config.h.in" "memcached-bipbuffer.o" "AUTHORS" "util.h" "memcached-slabs.o" "missing" "slab_automove.h" "ChangeLog" ".#memcached.c" "md5.h" "proxy_config.c" "memcached-authfile.o" "proto_text.c" "proto_bin.c" "memcached_debug-crawler.gcno" "memcached_debug-base64.gcno" "proxy_request.c" "t/" "linux_priv.c" "config.sub" "murmur3_hash.c" "stamp-h1" "memcached_debug-assoc.o" "util.c" "base64.h" "memcached_debug-base64.o" "slabs.c" "memcached" "install-sh" "config.log" "proxy_ring_hash.c" "stats_prefix.c" "memcached.spec" "config.status" "stats_prefix.o" "memcached-logger.o" "memcached_debug-stats_prefix.o" "bipbuffer.c" ".git/" "authfile.h" "memcached-util.o" "proxy_lua.c" "memcached_debug-storage.o" "memcached_debug-memcached.o" "memcached_debug-items.gcno" "proto_proxy.h" "memcached-slab_automove_extstore.o" "memcached_debug-util.gcno" ".Makefile.am.~undo-tree~" "crawler.h" "memcached-itoa_ljust.o" "extstore.h" "Makefile.am" "memcached-base64.o" "memcached-hash.o" "Makefile.in" "memcached_debug-logger.gcno" "doc/" "extstore.c" "protocol_binary.h" "ostep" "cache.h" "memcached-cache.o" "slabs.h" "restart.c" "memcached_debug-proto_bin.o" "scripts/" "testapp.o" "memcached_debug-daemon.o" "memcached_debug-logger.o" "memcached-assoc.o" "memcached_debug-thread.o" "memcached_debug-slab_automove_extstore.gcno" "thread.c" "logger.c" "trace.h" "jenkins_hash.o" "memcached.c" "memcached_debug-crawler.o" "sizes.c" "memcached_debug-slabs.gcno" "memcached_debug-jenkins_hash.o" "itoa_ljust.h" "autom4te.cache/" "memcached-daemon.o" "crc32c.h" "README.md" "memcached_debug-extstore.o" "base64.c" "crc32c.o" ".deps/" "memcached-stats_prefix.o" "logger.h" "LICENSE.bipbuffer" "crc32c.c" "proxy_network.c" "COPYING" "memcached-jenkins_hash.o" "slab_automove.c" "proxy_ustats.c" "memcached_debug-slabs.o" "proxy_jump_hash.c" "jenkins_hash.c" "memcached_debug-slab_automove.o" "authfile.c" "hash.c" "timedrun" "memcached_debug-extstore.gcno" "memcached-thread.o" "murmur3_hash.h" "tls.c" "memcached_debug-hash.gcno" "memcached-extstore.o" "testapp" "memcached_dtrace.d" "m4/" "vendor/" "hash.h" "stats_prefix.h" "version.m4" "cache.c" "proxy.h" "memcached-items.o" "memcached_debug-murmur3_hash.o" "config.guess" "memcached-murmur3_hash.o" "memcached_debug-assoc.gcno" "tls.h" "memcached_debug-daemon.gcno" "compile" "queue.h" "darwin_priv.c" "cache.o" "memcached_debug-storage.gcno" "memcached_debug-slab_automove_extstore.o" "util.o" "sasl_defs.c" "memcached_debug-proto_text.o" "items.h" "memcached_debug-itoa_ljust.gcno" "proto_proxy.c" "memcached_debug-cache.gcno" "memcached-proto_bin.o" "memcached_debug-crc32c.gcno" "murmur3_hash.o" "crawler.c" "openbsd_priv.c" "jenkins_hash.h" "memcached_debug-thread.gcno" "proxy_ratelim.c" "memcached_debug-authfile.o" "memcached_debug-util.o" "memcached_debug-murmur3_hash.gcno" "memcached-restart.o" "memcached-memcached.o" "memcached_debug-cache.o" "memcached_debug-stats_prefix.gcno" "testapp.c" "slab_automove_extstore.c" "memcached_debug-proto_text.gcno" "memcached-storage.o" "timedrun.c" "xxhash.h" "proxy_internal.c" "assoc.c" "proxy_await.c" "sizes.o" "memcached-proto_text.o" "memcached_debug-memcached.gcno" "memcached_debug-jenkins_hash.gcno" "solaris_priv.c" "items.c" "proto_bin.h" "memcached_debug-crc32c.o" "memcached-crc32c.o" "daemon.c" "configure~" "md5.c" "itoa_ljust.c" "timedrun.o" "sizes" "configure" "depcomp" "proto_text.h" "memcached_debug-bipbuffer.o" "memcached_debug-slab_automove.gcno" "storage.h" "bipbuffer.h" "freebsd_priv.c" "memcached-crawler.o" "sasl_defs.h" "config.h" "aclocal.m4" "memcached.h" "memcached_debug-authfile.gcno" "storage.c" "memcached_debug-restart.o" "memcached-debug" "memcached_debug-hash.o" "memcached_debug-restart.gcno" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,25 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("process_request_method"
+ (filename . "~/Documents/hack/memcached-1.6.22/proxy_request.c")
+ (front-context-string . "r, const char *c")
+ (rear-context-string . "(mcp_parser_t *p")
+ (position . 8370))
+("command_switch"
+ (filename . "~/Documents/hack/memcached-1.6.22/proxy_internal.c")
+ (front-context-string . "process_arithmet")
+ (rear-context-string . "CR:\n            ")
+ (position . 53902))
+("process_get_cmd"
+ (filename . "~/Documents/hack/memcached-1.6.22/proxy_internal.c")
+ (front-context-string . "static void proc")
+ (rear-context-string . "suffix) + 2;\n}\n\n")
+ (position . 6569))
+("process_arithmetic_cmd"
+ (filename . "~/Documents/hack/memcached-1.6.22/proxy_internal.c")
+ (front-context-string . "static void proc")
+ (rear-context-string . "_remove(it);\n}\n\n")
+ (position . 12756))
+)

@@ -1,0 +1,122 @@
+;; Object semanticdb-project-database-file-157dc89ec80c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157dc89ec80c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157dc899889c"
+      :major-mode c-mode
+      :tags 
+        '( ("asm/errno.h" include (:system-flag t) nil [1 23]))          
+      :file "errno.h"
+      :pointmax 24
+      :fsize 23
+      :lastmodtime '(25939 20571 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-157dc8879d9c"
+      :major-mode c-mode
+      :tags 
+        '( ("_LINUX_LIMITS_H" variable (:constant-flag t) nil [96 111])
+            ("NR_OPEN" variable (:constant-flag t) nil [121 128])
+            ("NGROUPS_MAX" variable (:constant-flag t) nil [151 162])
+            ("ARG_MAX" variable (:constant-flag t) nil [223 230])
+            ("LINK_MAX" variable (:constant-flag t) nil [295 303])
+            ("MAX_CANON" variable (:constant-flag t) nil [354 363])
+            ("MAX_INPUT" variable (:constant-flag t) nil [423 432])
+            ("NAME_MAX" variable (:constant-flag t) nil [488 496])
+            ("PATH_MAX" variable (:constant-flag t) nil [546 554])
+            ("PIPE_BUF" variable (:constant-flag t) nil [618 626])
+            ("XATTR_NAME_MAX" variable (:constant-flag t) nil [687 701])
+            ("XATTR_SIZE_MAX" variable (:constant-flag t) nil [760 774])
+            ("XATTR_LIST_MAX" variable (:constant-flag t) nil [837 851])
+            ("RTSIG_MAX" variable (:constant-flag t) nil [915 924]))          
+      :file "limits.h"
+      :pointmax 938
+      :fsize 937
+      :lastmodtime '(25939 20571 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("NR_OPEN" . ((number "1024" 137 . 141)))
+          ("MAX_INPUT" . ((number "255" 440 . 443)))
+          ("XATTR_SIZE_MAX" . ((number "65536" 775 . 780)))
+          ("XATTR_LIST_MAX" . ((number "65536" 852 . 857)))
+          ("PIPE_BUF" . ((number "4096" 634 . 638)))
+          ("ARG_MAX" . ((number "131072" 237 . 243)))
+          ("MAX_CANON" . ((number "255" 371 . 374)))
+          ("XATTR_NAME_MAX" . ((number "255" 704 . 707)))
+          ("NAME_MAX" . ((number "255" 505 . 508)))
+          ("PATH_MAX" . ((number "4096" 562 . 566)))
+          ("_LINUX_LIMITS_H")
+          ("LINK_MAX" . ((number "127" 312 . 315)))
+          ("RTSIG_MAX" . ((number "32" 927 . 929)))
+          ("NGROUPS_MAX" . ((number "65536" 166 . 171)))
+          )
+)
+    (semanticdb-table "semanticdb-table-157dc8861308"
+      :major-mode c-mode
+      :tags 
+        '( ("_LINUX_POSIX_TYPES_H" variable (:constant-flag t) nil [101 121])
+            ("linux/stddef.h" include (:system-flag t) nil [123 148])
+            ("__FD_SETSIZE" variable (:constant-flag t) nil [753 765])
+            ("__kernel_fd_set" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("fds_bits" variable
+                             (:dereference 1
+                              :type "unsigned long")
+                              (reparse-symbol classsubparts) [790 848]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [772 867])
+            ("__kernel_sighandler_t" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [940 944]))                  
+                :type "void")
+                nil [910 945])
+            ("__kernel_key_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [978 1005])
+            ("__kernel_mqd_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1006 1033])
+            ("asm/posix_types.h" include (:system-flag t) nil [1035 1063]))          
+      :file "posix_types.h"
+      :pointmax 1099
+      :fsize 1098
+      :lastmodtime '(25939 20571 0 0)
+      :unmatched-syntax '((TYPEDEF 902 . 909))
+      :lexical-table 
+        '(("_LINUX_POSIX_TYPES_H")
+          ("__FD_SETSIZE" . ((number "1024" 766 . 770)))
+          )
+)
+    (semanticdb-table "semanticdb-table-157dc89d830c"
+      :major-mode c-mode
+      :tags 
+        '( ("_LINUX_STDDEF_H" variable (:constant-flag t) nil [96 111])
+            ("__struct_group" variable (:constant-flag t) nil [915 929])
+            ("__DECLARE_FLEX_ARRAY" variable (:constant-flag t) nil [1426 1446]))          
+      :file "stddef.h"
+      :pointmax 1533
+      :fsize 1532
+      :lastmodtime '(25939 20571 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__DECLARE_FLEX_ARRAY" (spp-arg-list ("TYPE" "NAME") 1446 . 1458) . ((STRUCT "struct" 1462 . 1468) (semantic-list "{ \\
+		struct { } __empty_ ## NAME; \\
+		TYPE NAME[]; \\
+	}" 1469 . 1525)))
+          ("_LINUX_STDDEF_H")
+          ("__struct_group" (spp-arg-list ("TAG" "NAME" "ATTRS" "MEMBERS...") 929 . 959) . ((UNION "union" 963 . 968) (semantic-list "{ \\
+		struct { MEMBERS } ATTRS; \\
+		struct TAG { MEMBERS } ATTRS NAME; \\
+	}" 969 . 1044)))
+          )
+))
+  :file "!usr!include!linux!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

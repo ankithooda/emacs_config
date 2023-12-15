@@ -1,0 +1,22 @@
+;; Object semanticdb-project-database-file-15784403c4ac
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15784403c4ac"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157843a6bea0"
+      :major-mode makefile-automake-mode
+      :tags 
+        '( ("man_MANS" variable (:default-value ("memcached.1")) nil [1 24])
+            ("SPECIFICATIONS" variable (:default-value ("protocol-binary.txt" "protocol-binary-range.txt")) nil [25 88])
+            ("EXTRA_DIST" variable (:default-value ("$(srcdir)/*.txt")) nil [89 118])
+            ("EXTRA_DIST" variable (:default-value ("$(SPECIFICATIONS)")) nil [245 277])
+            ("BUILT_SOURCES" variable nil nil [278 294])
+            ("MOSTLYCLEANFILES" variable nil nil [294 313]))          
+      :file "Makefile.am"
+      :pointmax 838
+      :fsize 837
+      :lastmodtime '(25976 38549 706261 480000)
+      :unmatched-syntax nil))
+  :file "!home!ubuntu!Documents!hack!memcached-1.6.22!doc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

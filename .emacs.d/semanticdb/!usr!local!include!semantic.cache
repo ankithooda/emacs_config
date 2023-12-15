@@ -1,0 +1,87 @@
+;; Object semanticdb-project-database-file-157dc88a0838
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157dc88a0838"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157dc8706438"
+      :major-mode c-mode
+      :tags 
+        '( ("EVENT1_EVENT_H_INCLUDED_" variable (:constant-flag t) nil [1574 1598])
+            ("event2/tag_compat.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2646 2676])
+            ("event2/tag.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2622 2645])
+            ("event2/bufferevent_compat.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2583 2621])
+            ("event2/bufferevent_struct.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2544 2582])
+            ("event2/bufferevent.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2512 2543])
+            ("event2/buffer_compat.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2478 2511])
+            ("event2/buffer.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2451 2477])
+            ("event2/event_compat.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2418 2450])
+            ("event2/event.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2392 2417])
+            ("event2/event_struct.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2359 2391])
+            ("evutil.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2183 2202])
+            ("stdarg.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2141 2160])
+            ("event2/event-config.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [1933 1965]))          
+      :file "event.h"
+      :pointmax 2745
+      :fsize 2744
+      :lastmodtime '(25976 39355 787837 878000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("EVENT1_EVENT_H_INCLUDED_")
+          )
+)
+    (semanticdb-table "semanticdb-table-157dc87d492c"
+      :major-mode c-mode
+      :tags 
+        '( ("EVENT1_EVUTIL_H_INCLUDED_" variable (:constant-flag t) nil [1511 1536])
+            ("event2/util.h" include (:system-flag t) nil [1718 1742]))          
+      :file "evutil.h"
+      :pointmax 1783
+      :fsize 1782
+      :lastmodtime '(25976 39355 787837 878000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("EVENT1_EVUTIL_H_INCLUDED_")
+          )
+))
+  :file "!usr!local!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

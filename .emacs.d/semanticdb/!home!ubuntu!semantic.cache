@@ -1,0 +1,55 @@
+;; Object semanticdb-project-database-file-159377982654
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-159377982654"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-159377982794"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("custom-set-variables" code nil nil [1 713])
+            ("custom-set-faces" code nil nil [714 953])
+            ("global-set-key" code nil nil [955 996])
+            ("menu-bar-mode" code nil nil [997 1015])
+            ("tool-bar-mode" code nil nil [1016 1034])
+            ("ggtags" include nil nil [1077 1094])
+            ("add-hook" code nil nil [1095 1252])
+            ("define-key" code nil nil [1254 1324])
+            ("define-key" code nil nil [1325 1394])
+            ("define-key" code nil nil [1395 1462])
+            ("define-key" code nil nil [1463 1525])
+            ("define-key" code nil nil [1526 1590])
+            ("define-key" code nil nil [1591 1655])
+            ("define-key" code nil nil [1657 1711])
+            ("setq-local" code nil nil [1713 1780])
+            ("company" include nil nil [1782 1800])
+            ("add-hook" code nil nil [1801 1849])
+            ("load-file" code nil nil [1919 1989])
+            ("load-file" code nil nil [1990 2069])
+            ("cc-mode" include nil nil [2089 2107])
+            ("semantic" include nil nil [2108 2127])
+            ("global-semanticdb-minor-mode" code nil nil [2129 2161])
+            ("global-semantic-idle-scheduler-mode" code nil nil [2162 2201])
+            ("semantic-mode" code nil nil [2203 2220])
+            ("add-hook" code nil nil [2251 2298])
+            ("global-set-key" code nil nil [2299 2347])
+            ("global-set-key" code nil nil [2449 2496])
+            ("add-hook" code nil nil [2554 2640])
+            ("setq-default" code nil nil [2676 2711])
+            ("setq-default" code nil nil [2772 2798])
+            ("dtrt-indent" include nil nil [2937 2959])
+            ("dtrt-indent-mode" code nil nil [2960 2980])
+            ("setq" code nil nil [2982 3012])
+            ("ws-butler" include nil nil [3038 3058])
+            ("add-hook" code nil nil [3059 3105])
+            ("yasnippet" include nil nil [3129 3149])
+            ("yas-global-mode" code nil nil [3150 3169])
+            ("global-set-key" code nil nil [3603 3823])
+            ("setq" code nil nil [3824 3983]))          
+      :file ".emacs"
+      :pointmax 3984
+      :fsize 3984
+      :lastmodtime '(25978 48271 654457 78000)
+      :unmatched-syntax nil))
+  :file "!home!ubuntu!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

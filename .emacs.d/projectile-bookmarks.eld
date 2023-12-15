@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/Documents/hack/memcached-1.6.22/")
